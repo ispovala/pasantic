@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "administrador",
+    "password": "sistemasdistribuidos",
+    "database": "pasantic",
+    "host": "sisdis.coxfxzq5yayn.us-east-1.rds.amazonaws.com",
+    "dialect": "mysql"
+  },
+    "test": {
+      "username": "jvi",
+      "password": "finilip27",
+      "database": "pasantic",
+      "host": "127.0.0.1",
+      "dialect": "mysql"
+    },
+    "production": {
+      "username": "jvi",
+      "password": "finilip27",
+      "database": "pasantic",
+      "host": "127.0.0.1",
+      "dialect": "mysql"
+    }
+}
