@@ -7,17 +7,17 @@
     "dialect": "mysql"
   },
     "test": {
-      "username": "jvi",
-      "password": "finilip27",
+      "username": "administrador",
+      "password": "sistemasdistribuidos",
       "database": "pasantic",
-      "host": "127.0.0.1",
+      "host": "sisdis.coxfxzq5yayn.us-east-1.rds.amazonaws.com",
       "dialect": "mysql"
     },
     "production": {
-      "username": "jvi",
-      "password": "finilip27",
+      "username": "administrador",
+      "password": "sistemasdistribuidos",
       "database": "pasantic",
-      "host": "127.0.0.1",
+      "host": "sisdis.coxfxzq5yayn.us-east-1.rds.amazonaws.com",
       "dialect": "mysql"
     }
 }
