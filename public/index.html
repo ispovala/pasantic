@@ -1,16 +1,65 @@
+<!DOCTYPE html>
 <html>
 
 <head>
-  <title>Express</title>
-  <link rel="stylesheet" href="/stylesheets/style.css">
+  <title>Object-oriented Programming Course</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-  <h1>Pasantic</h1>
-  <p>Sistemas Distribuidos y Computación en la Nube 2022 1T</p>
-  <p>Ivilin Carrillo</p>
-  <p>Isaac Ponce</p>
-  <p>Raúl Villao</p>
+
+  <h1 id="title">Object-oriented Programming Course</h1>
+  <p id="description">Thank you for choosing me as your teacher, you are one step away from complete the registration
+    and to begin learning.</p>
+
+  <div id="form-div">
+    <form id="survey-form">
+
+      <fieldset>
+        <label id="name-label"> Name </label>
+        <input id="name" type="text" placeholder="Enter your name" required/>
+        <label id="email-label"> Email </label>
+        <input id="email" type="email" placeholder="Enter your email" required/>
+        <label id="number-label"> Age </label>
+        <input id="number" type="number" placeholder="Age" min="18" max="110" />
+      </fieldset>
+
+      <fieldset>
+        <label>Is this the first time taking a OOP course?</label>
+        <label><input type="radio" value="true" name="first-time" class="inline"/> Yes</label>
+        <label><input type="radio" value="false" name="first-time" class="inline" checked/> No</label>
+      </fieldset>
+      <fieldset>
+        <label>Select the programming languages you have used before</label>
+        <label> <input type="checkbox" name="language" class="inline" value="Python"/> Python </label>
+        <label> <input type="checkbox" name="language" class="inline" value="Java"/> Java </label>
+        <label> <input type="checkbox" name="language" class="inline" value="C"/> C </label>
+        <label> <input type="checkbox" name="language" class="inline" value="C++"/> C++ </label>
+        <label> <input type="checkbox" name="language" class="inline" value="JavaScript"/> JavaScript </label>
+      </fieldset>
+
+      <fieldset>
+        <label>Select which schedule fits you best</label>
+        <select id="dropdown">
+            <option value="1">monday to thursday &nbsp; [20:00 - 22:00]</option>
+            <option value="2">monday to thursday &nbsp; [16:00 - 18:00]</option>
+            <option value="3">friday and saturday &nbsp;&nbsp;  [14:00 - 18:00]</option>
+          </select>
+        <label>If you have any questions or need additional help, please let us a comment</label>
+        <textarea name="bio" rows="4" cols="30" placeholder="I would like to know more about..."></textarea>
+
+      </fieldset>
+      <input id="submit" type="submit" value="Submit" />
+    </form>
+  </div>
+  <footer><label id="credits-ispovala">Developed by <a  id="credits-ispovala" href="https://twitter.com/ispovala">ispovala</a>
+      </label>
+    <label><a id="credits"
+      href="https://www.freepik.com/free-vector/stream-binary-code-design_13311414.htm#page=2&query=coding&position=3&from_view=search">Image
+      by rawpixel.com</a> on Freepik
+      </label>
+  </footer>
 </body>
+
 
 </html>
